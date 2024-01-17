@@ -17,3 +17,8 @@ Protical (tcp/ws/wss/tls): specifies the protocol over which the MQTT client and
 communicate. TCP is the basic connection protocol, while WS refers to WebSockets, 
 suitable for web clients. WSS is WebSockets with SSL/TLS for security, and TLS is a 
 secure layer over TCP.
+
+Notes:
+1) Interfacing (to establish communicaiton b/w board use .h file standard functions)
+2) Synchronized clocks for I2C and one wire
+3) Port number and IO
