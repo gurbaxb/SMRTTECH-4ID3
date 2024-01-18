@@ -1,0 +1,55 @@
+[
+    {
+        "id": "58980d3b53f655aa",
+        "type": "mqtt in",
+        "z": "a6d306b0b1d98ade",
+        "name": "",
+        "topic": "4ID3_GroupA/light",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "1c150a15d610024c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 620,
+        "wires": [
+            [
+                "d992a7f03c944ce8",
+                "bf52536c8989726a"
+            ]
+        ]
+    },
+    {
+        "id": "1c150a15d610024c",
+        "type": "mqtt-broker",
+        "name": "MQTT Wifi Lab",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

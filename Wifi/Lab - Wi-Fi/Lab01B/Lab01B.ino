@@ -32,7 +32,7 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   //Set the MQTT client to connect to the desired broker
-  client.setServer("10.0.0.191", 1883);
+  client.setServer("test.mosquitto.org", 1883);
   
 }
 
@@ -43,7 +43,7 @@ void reconnect() {
   while (!client.connected()) {
     Serial.print("\nAttempting MQTT connection...");
   
-    if (client.connect("ESP8266Client")) {
+    if (client.connect("gurbax")) {
       Serial.println("Connected to MQTT server");  
       client.subscribe("testTopic");
     } else {

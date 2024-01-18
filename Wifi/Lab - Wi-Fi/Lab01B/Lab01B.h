@@ -21,9 +21,9 @@
 #define DELAY_BETWEEN_SAMPLES_MS 5000
 
 //Global Variables
-char* ssid = "Pixel_4161";
-char* pass = "Pixel2xl";
-const char* brokerAddress = "10.0.0.191";
+char* ssid = "SEPT SmartLAB 537";
+char* pass = "Factory1";
+const char* brokerAddress = "test.mosquitto.org";
 uint16_t addressPort = 1883;
 
 //Instantiate Sensor Objects
